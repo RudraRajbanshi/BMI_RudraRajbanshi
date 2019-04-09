@@ -18,4 +18,10 @@ public class BMI_Activity {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+    public double BMI(){
+        double h = height/100;
+        double res = weight/(h*h);
+        return res;
+    }
 }

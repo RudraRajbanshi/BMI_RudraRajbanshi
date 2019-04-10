@@ -5,7 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+
     tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI calculator"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:layout_margin="20dp"
+        android:textSize="30dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,7 +39,7 @@
             android:hint="height"
             android:layout_weight="1"
             android:textAlignment="center"
-
+            android:inputType="number"
             />
 
     </LinearLayout>
@@ -61,7 +71,8 @@
             android:textSize="20dp"
             android:hint="weight"
             android:layout_weight="1"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:inputType="number"/>
 
     </LinearLayout>
     <TextView
